@@ -1,0 +1,90 @@
+/*
+ @font-face {
+ font-family: 'ArialMT';
+ src:
+ local('Arial'),
+ local('Arial MT'),
+ local('Arial Regular');
+ font-weight: normal;
+ font-style: normal;
+ }
+ */
+
+/* <style type="text/css"> */
+/* CSS styling rules here. Yes, comments are different in CSS. */
+html {
+	font-size: 2vh/* 62.5% */ /* 10px; */background-color #b2b2b2;
+	background-color: rgba(0,0,0, .3);
+	background: radial-gradient(#648880,#293f50);
+	background: url("logoFromPatioCactusFullSize.png") 0 0 no-repeat;
+}
+h1 {
+	color: red;
+	background-color: orange;
+	width: 60vw; /* 60vmin ; */ /* 60vw; */ /* 300px; */
+	height: 10vmin; /* 10vh; */ /* 120px; */
+	font-family: Palatino Linotype, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6vmin; /* vh */ /* 3.2rem; */ /* 32px; */
+}
+div {
+	color: blue;
+	background-color: white;
+	width: 60vw; /* 300px; */
+	height: 5vh; /* 50px; */
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-size: 3vh; /* 1.4rem;*/ /* 14px; */
+	/* border: 5px solid black; */
+}
+.greendiv {
+	color: black;
+	background-color: green;
+}
+.bluediv {
+	color: white;
+	background-color: blue;
+}
+.bordered {
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+div#alternate {
+	color: green;
+	background-color: blue;
+	width: 60vw; /* 300px; */
+	height: 5vh; /* 50px; */
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-size: 3vh; /* 1.4rem;*/ /* 14px; */
+	/* border: 5px solid black; */
+}
+.bordered {
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+body {
+	font-family: Proxima-Nova, Helvetica, sans-serif;
+	font-size: 3vh; /* 1.6rem; */ /* 16px */
+}
+p {
+	font-family: cursive;
+	font-size: 3vh; /* 1.8rem; */
+}
+.bordered {
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+
+image{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* </style> */

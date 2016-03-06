@@ -1,0 +1,102 @@
+/*  fluidIsTheNewBlack  */
+
+html {
+	/* 62.5% */ /* 10px; */
+	font-size: 2vh ;
+	background-color #b2b2b2;
+	background-color : rgba(0,0,0, .3);
+	background: radial-gradient(#648880,#293f50);
+	background: url("logoFromPatioCactusFullSize.png") 0 0 no-repeat;
+}
+body {
+	background: #F3F2E8;
+	color: #51463D;
+	font: normal 100%/1.5 "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	padding: 1em;
+}
+
+em {
+	font-family: Palatino, Georgia, Times, serif;
+}
+
+img {
+	/* max-width: 100%;
+	max-height: 100%; */
+	width: 100%;
+	height: 100%;
+}
+
+div {
+	color: blue;
+	background-color: white;
+	width: 50%; /* 300px; */
+	/*height: 120vh;  50px; */
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-size: 3vh; /* 1.4rem;*/ /* 14px; */
+	/* border: 5px solid black; */
+}
+.greendiv {
+	color: black;
+	background-color: green;
+}
+.bluediv {
+	color: white;
+	background-color: blue;
+}
+.bordered {
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+div#alternate {
+	color: green;
+	background-color: blue;
+	width: 60vw; /* 300px; */
+	height: 5vh; /* 50px; */
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-size: 3vh; /* 1.4rem;*/ /* 14px; */
+	/* border: 5px solid black; */
+}
+.bordered {
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+h1 {
+	color: red;
+	background-color: orange;
+	width: 60vw; /* 60vmin ; */ /* 60vw; */ /* 300px; */
+	height: 10vmin; /* 10vh; */ /* 120px; */
+	font-family: Palatino Linotype, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6vmin; /* vh */ /* 3.2rem; */ /* 32px; */
+}
+
+p {
+	font-family: cursive;
+	font-size: 3vh; /* 1.8rem; */
+}
+.bordered {
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+}
+.border-dotted {
+	border: 2px dotted black;
+}
+
+svg {
+	width: 100%;
+	height: auto;
+}
+
+canvas#tutorialCanvas {
+	border: 1px solid black;
+}

@@ -1,0 +1,31 @@
+@font-face {    
+    font-family: 'ArialMT';
+    src:
+        local('Arial'),
+        local('Arial MT'),
+        local('Arial Regular');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img#redCirc1 {
+	width="100"
+    max-width:100%;
+    height:auto;
+}
+
+img#redCirc2 {
+	width="100"
+    max-width:100%;
+    height:auto;
+}
+
+img#redCirc3 {
+	width="100"
+    max-width:100%;
+    height:auto;
+}
+
+img {
+	max-width:100%;
+}
